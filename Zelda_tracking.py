@@ -56,7 +56,7 @@ while True:
 	# 显示
 	cv2.imshow("Frame", frame)
 	# 返回值为-1，-1&0xFF的结果为255
-	key = cv2.waitKey(100) & 0xFF
+	key = cv2.waitKey(10) & 0xFF
 	# 0xFF是十六进制常数，二进制值为11111111。通过使用位和（和）这个常数，
     # 它只留下原始的最后8位（在这种情况下，无论CV2.WaITKEY（0）是），此处是防止BUG。
 
